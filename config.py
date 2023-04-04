@@ -1,10 +1,10 @@
 import discord, logging, os
 from discord.ext import commands, tasks
 from itertools import cycle
+from Token import *
 
 
-
-TOKEN = os.environ[YOUR_SECRET]
+TOKEN = YOUR_SECRET
 # This^ is needed for replit to keep token safe in secrets
 
 ## Prerequisites
