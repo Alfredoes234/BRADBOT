@@ -4,7 +4,7 @@ from itertools import cycle
 
 
 
-TOKEN = os.environ["TOKEN"]
+TOKEN = os.environ[YOUR_SECRET]
 # This^ is needed for replit to keep token safe in secrets
 
 ## Prerequisites
