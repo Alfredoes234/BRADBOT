@@ -1,10 +1,13 @@
 import discord, logging, os
 from discord.ext import commands, tasks
 from itertools import cycle
-from Token import *
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
-TOKEN = YOUR_SECRET
+TOKEN = os.getenv('TOKEN')
 # This^ is needed for replit to keep token safe in secrets
 
 ## Prerequisites
