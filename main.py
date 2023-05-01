@@ -3,6 +3,7 @@ from discord.ext import commands
 from config import *
 
 
+
 #Role event
 @bot.event
 async def on_raw_reaction_add(payload):
