@@ -8,7 +8,7 @@ load_dotenv()
 
 
 TOKEN = os.getenv('TOKEN')
-# This^ is needed for replit to keep token safe in secrets
+# This^ is needed to keep token safe in an env file
 
 ## Prerequisites
 
