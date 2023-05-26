@@ -24,6 +24,7 @@ async def on_raw_reaction_add(payload):
 
 
 # Role event
+"""
 @bot.event
 async def on_raw_reaction_remove(payload):
   ourMessageId = 1049443469711659078
@@ -43,6 +44,7 @@ async def on_raw_reaction_remove(payload):
       await member.remove_roles(role)
     else:
       print('Member Not Found')
+"""
 
 
 async def load():

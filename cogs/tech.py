@@ -8,6 +8,8 @@ class games(commands.Cog):
     def __init__(self, bot: commands.Bot) -> None:
         self.bot = bot
 
+    
+    """
     @commands.command()
     async def roles(self, ctx):
         embed = discord.Embed(
@@ -21,6 +23,7 @@ class games(commands.Cog):
         await msg.add_reaction('✅')
         await msg.add_reaction('🆗')
         await msg.add_reaction('🎮')
+    """
     
     @commands.command()
     @commands.has_role('Games')
